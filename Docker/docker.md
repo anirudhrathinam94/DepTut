@@ -16,10 +16,10 @@ WHY DO WE USE DOCKER
 
 Consider the following example where we try to install redis (an in memory data store). Page says run the following:
 
-  $ wget http://download.redis.io/releases/redis-5.0.5.tar.gz
-  $ tar xzf redis-5.0.5.tar.gz
-  $ cd redis-5.0.5
-  $ make
+    $ wget http://download.redis.io/releases/redis-5.0.5.tar.gz
+    $ tar xzf redis-5.0.5.tar.gz
+    $ cd redis-5.0.5
+    $ make
 
 We get an error saying wget command not found. 
 
